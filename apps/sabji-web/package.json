@@ -1,9 +1,9 @@
 {
-  "name": "@sabji/sabji",
+  "name": "@sabji/sabji-web",
   "version": "0.0.1",
   "private": true,
   "nx": {
-    "sourceRoot": "apps/sabji/src"
+    "sourceRoot": "apps/sabji-web/src"
   },
   "dependencies": {
     "next": "~16.4.1",

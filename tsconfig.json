@@ -4,10 +4,13 @@
   "files": [],
   "references": [
     {
-      "path": "./apps/sabji-e2e"
+      "path": "./apps/sabji-mobile"
     },
     {
-      "path": "./apps/sabji"
+      "path": "./apps/sabji-web-e2e"
+    },
+    {
+      "path": "./apps/sabji-web"
     }
   ]
 }

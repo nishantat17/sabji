@@ -35,8 +35,8 @@
     "src/**/*.tsx",
     "src/**/*.js",
     "src/**/*.jsx",
-    "../../apps/sabji/.next/types/**/*.ts",
-    "../../dist/apps/sabji/.next/types/**/*.ts",
+    "../../apps/sabji-web/.next/types/**/*.ts",
+    "../../dist/apps/sabji-web/.next/types/**/*.ts",
     "index.d.ts",
     "next-env.d.ts"
   ],

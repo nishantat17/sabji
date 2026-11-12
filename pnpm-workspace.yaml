@@ -7,3 +7,5 @@ allowBuilds:
   sharp: false
   unrs-resolver: false
   '@swc/core': false
+  '@parcel/watcher': false
+  esbuild: false

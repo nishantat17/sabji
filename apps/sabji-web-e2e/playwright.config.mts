@@ -37,8 +37,8 @@ export default defineConfig({
   },
   webServer: {
     command: isCI
-      ? 'pnpm exec nx run @sabji/sabji:start'
-      : 'pnpm exec nx run @sabji/sabji:dev',
+      ? 'pnpm exec nx run @sabji/sabji-web:start'
+      : 'pnpm exec nx run @sabji/sabji-web:dev',
     url: webServerAddress,
     reuseExistingServer: true,
     cwd: workspaceRoot,

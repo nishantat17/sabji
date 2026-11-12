@@ -1,10 +1,10 @@
 {
-  "name": "@sabji/sabji-e2e",
+  "name": "@sabji/sabji-web-e2e",
   "version": "0.0.1",
   "private": true,
   "nx": {
     "implicitDependencies": [
-      "@sabji/sabji"
+      "@sabji/sabji-web"
     ]
   }
 }

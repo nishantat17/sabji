@@ -4,7 +4,7 @@ import { join } from 'node:path';
 
 export default defineConfig(() => ({
   root: import.meta.dirname,
-  cacheDir: '../../node_modules/.vite/apps/sabji',
+  cacheDir: '../../node_modules/.vite/apps/sabji-web',
   resolve: {
     alias: {
       '@': join(import.meta.dirname, './src'),
@@ -12,7 +12,7 @@ export default defineConfig(() => ({
   },
   plugins: [react()],
   test: {
-    name: '@sabji/sabji',
+    name: '@sabji/sabji-web',
     watch: false,
     globals: true,
     environment: 'jsdom',
