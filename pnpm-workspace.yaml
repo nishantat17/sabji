@@ -1,0 +1,9 @@
+packages:
+  - 'apps/*'
+
+autoInstallPeers: true
+allowBuilds:
+  nx: true
+  sharp: false
+  unrs-resolver: false
+  '@swc/core': false
